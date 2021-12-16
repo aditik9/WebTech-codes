@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="a4-p2.php" method="POST">
+      <label>Enter First Name : </label>
+      <input type="text" name="fname" value=""><br><br>
+      
+      <label>Enter Last Name : </label>
+      <input type="text" name="lname" value=""><br><br>
+      
+      <label>Select your gender : </label><br>
+      <input type="radio" name="gender" value="Male">Male<br>
+      <input type="radio" name="gender" value="Female">Female<br>
+      <input type="radio" name="gender" value="Others">Others<br><br>
+      
+      <label>Select Languages known : </label><br>
+      <input type="checkbox" name="lang[]" value="English">English<br>
+      <input type="checkbox" name="lang[]" value="Hindi">Hindi<br>
+      <input type="checkbox" name="lang[]" value="Marathi">Marathi<br><br>
+      
+      <label>Select state : </label>
+      <select name="state">
+        <option value="Goa">Goa</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Karnataka">Karnataka</option>
+      </select><br><br>
+      
+      <input type="submit" name="" value="Submit">  
+      <input type="reset" name="" value="Reset">
+    </form>
+  </body>
+</html>
