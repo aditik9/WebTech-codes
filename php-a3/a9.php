@@ -3,10 +3,8 @@
   $iterator = new ArrayIterator($cities);
   $iterator->rewind();
 
-  echo "current()<br>";
   while($iterator->valid()){
     print $iterator->current() . " is the capital of " .$iterator->key(). "<br>";
     $iterator->next();
   }
-
  ?>

@@ -1,7 +1,4 @@
 <?php 
-  $n = $_POST['number'];
-  factorial($n);
-
   function factorial($n)
   {
     $fact=1;
@@ -11,5 +8,7 @@
     }
     echo "<br>The factorial of $n : $fact";
   }
-
+  
+  $n = $_POST['number'];
+  factorial($n);
  ?>

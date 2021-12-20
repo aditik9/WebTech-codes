@@ -7,10 +7,8 @@
   echo "<br><br>Associative array <br>";
   print_r($emp_salary);
 
-  $x = array(
-    'comp' => array('Networks','Graphics','Java'),
-    'ece' => array('es','mpmc','eoe')
-  );
+  $x = array('comp' => array('Networks','Graphics','Java'),
+             'ece' => array('es','mpmc','eoe'));
   echo "<br><br>Multidimensional array <br>";
   print_r($x);
  ?>
